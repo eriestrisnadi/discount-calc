@@ -1,3 +1,6 @@
+
+Collection of TDD katas written in TypeScript.
+
 ## Requirements
 
 - NodeJS & NPM
@@ -5,16 +8,15 @@
 ## How to run
 
 1. Clone the repo
-2. Install dev deps using & build using `npm install && npm run build`
-3. Link the repo on local using npm, cmd `npm link discount-calculator`
-4. Then you can use it on your local node app
+2. Install dev deps using `npm install`
+3. Run test using `npm run test`
 
-## Example Usage
+## List
 
-```ts
-import { Calculate } from 'discount-calculator';
+- [x] Potter
 
-const cost = Calculate([1, 1, 2, 2, 3, 3, 4, 5]);
+## Resources:
 
-// console.log(cost); // Output 51.2
-```
+- [Coding Dojo](https://codingdojo.org/kata/)
+- [CodeKata](http://codekata.com/)
+- [awesome-katas](https://github.com/gamontal/awesome-katas)

@@ -8,7 +8,7 @@ type Item = string | number;
  * @param basket array of item
  * @returns number of total cost
  */
-export const Calculate = (basket: Item[]) => {
+export const Potter = (basket: Item[]) => {
   if (isEmpty(basket)) return 0;
 
   const organizedBasket = groupUnique(basket);

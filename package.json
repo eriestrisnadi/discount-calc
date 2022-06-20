@@ -1,7 +1,7 @@
 {
-  "name": "discount-calculator",
+  "name": "kata",
   "version": "1.0.0",
-  "description": "Calculate the price of any conceivable shopping basket (containing only shirts of the same collection), giving as big a discount as possible.",
+  "description": "TDD Kata in TypeScript.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "license": "MIT",
@@ -21,11 +21,6 @@
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
-    "prepare": "npm run build",
-    "prepublishOnly": "npm test && npm run lint",
-    "preversion": "npm run lint",
-    "test": "jest --config jestconfig.json",
-    "version": "npm run format && git add -A src",
-    "postversion": "git push && git push --tags"
+    "test": "jest --config jestconfig.json"
   }
 }
